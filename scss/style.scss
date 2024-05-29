@@ -1,3 +1,9 @@
-@import "anuncio.scss";
-@import "reset.scss";
-@import "header.scss";
+@import "./layout/anuncio";
+@import "./base/reset";
+@import "./layout/header";
+@import "./media-queries/media-mobile";
+@import "./media-queries/media-desktop";
+@import "./layout/section-principal";
+@import "./utilities/variables";
+@import "./layout/footer";
+@import "./componentes/botones";

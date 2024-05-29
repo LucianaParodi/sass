@@ -1,0 +1,11 @@
+
+.boton-negro{
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+.boton-01{
+    @extend .boton-negro
+}
