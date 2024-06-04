@@ -9,3 +9,18 @@
 .boton-01{
     @extend .boton-negro
 }
+
+section{
+    .iconowhap{
+        position: fixed;
+        right: 20px;
+        bottom: 30px;
+        transition: 3s;
+
+    }
+}
+section{
+    .iconowhap:hover{
+        transform: rotate(360deg) ;
+}
+}

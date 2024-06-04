@@ -152,6 +152,10 @@ body .carousel-container .hero-title h2 {
   font-size: 2.5rem;
   width: 50%;
   font-family: "Playfair Display";
+  transition: 3s;
+}
+.descuentos-container div:first-child h1:hover {
+  transform: scale(0.3);
 }
 .descuentos-container div:first-child p {
   margin-top: 15px;
@@ -167,7 +171,6 @@ body .carousel-container .hero-title h2 {
   box-shadow: 6px 7px 46px 0px rgba(0, 0, 0, 0.85);
   -webkit-box-shadow: 6px 7px 46px 0px rgba(0, 0, 0, 0.85);
   -moz-box-shadow: 6px 7px 46px 0px rgba(0, 0, 0, 0.85);
-  transform: translate(-50, 94px);
 }
 .descuentos-container div:last-child h2 {
   color: white;
@@ -178,6 +181,19 @@ body .carousel-container .hero-title h2 {
   color: white;
   font-family: "Playfair Display";
   margin: 15px 0;
+}
+
+.descuentos-container div.segundo-cuadro:hover {
+  transform: translate(-50px, 94px);
+  transition: 2s;
+}
+
+.descuentos-container div .segundo-cuadro h2 {
+  animation-name: cambiarColor;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 
 /*@mixin d-flex ($display, $justify, $aling){
@@ -203,18 +219,51 @@ body {
   font-size: 1rem;
 }
 
-div .iconowhap {
-  position: fixed;
-  right: 600px;
-  bottom: 30px;
-}
-
 .boton-negro, .boton-01 {
   background-color: black;
   color: blanchedalmond;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
+}
+
+section .iconowhap {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  transition: 3s;
+}
+
+section .iconowhap:hover {
+  transform: rotate(360deg);
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background-image: radial-gradient(circle, rgb(238, 174, 202) 31%, rgb(226, 181, 149) 42%);
+}
+
+/*Animaciones*/
+@keyframes cambiaelColor {
+  0% {
+    color: black;
+  }
+  50% {
+    color: burlywood;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+    color: rgb(255, 0, 140);
+  }
+}
+.presentation h1 {
+  animation-name: cambiaelColor;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */

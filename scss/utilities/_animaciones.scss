@@ -1,0 +1,25 @@
+@import "./variables";
+/*Animaciones*/
+@keyframes cambiaelColor {
+    0%{
+        color:black;
+    }
+    50%{
+        color: burlywood;
+    }
+    75%{
+        color:orange;
+    }
+    100%{
+        color:rgb(255, 0, 140);
+    }
+}
+    .presentation{
+        h1{
+           animation-name: cambiaelColor;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-duration: 5s;
+           animation-delay: 1s;
+        }
+    }
