@@ -5,3 +5,10 @@
     }
 }
 }
+@media screen and (max-width:1023px){
+    body{
+        .descuentos-container{
+            display: none;
+        }
+    }
+}

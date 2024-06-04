@@ -1,5 +1,4 @@
 @import '../utilities/variables';
-
 body{
     .carousel-container{
         .hero-title{
@@ -100,6 +99,49 @@ h1{
         @include propiedades-parrafo()
     }
 }
+.descuentos-container{
+    margin-top: 89px;
+    padding: 25px;
+    background-image:linear-gradient(to left, #8c366c,#6f64e7) ;
+     display: flex; 
+     justify-content: space-around;  
+     div:first-child{
+        width: 50%;
+        h1{
+            font-size: 2.5rem;
+            width:50%;
+            font-family: "Playfair Display";
+            }
+            p{
+                margin-top: 15px ;
+                font-family:"Playfair Display";
+                width: 150%;
+                font-size: 1rem;
+            }
+     }
+     div:last-child{
+            background-color: black;
+            border-radius: 5px;
+            padding: 35px;
+            width: 30%;
+            box-shadow: 6px 7px 46px 0px rgba(0,0,0,0.85);
+            -webkit-box-shadow: 6px 7px 46px 0px rgba(0,0,0,0.85);
+            -moz-box-shadow: 6px 7px 46px 0px rgba(0,0,0,0.85);            
+            transform: translate(-50,94px);
+              
+            h2{
+                color: white;
+                font-family: "Playfari Display";
+                font-size: 2rem;
+            }
+            li{
+               color: white;
+               font-family: "Playfair Display";
+                margin: 15px 0;
+            }
+    }
+}
+
 
 
 /*@mixin d-flex ($display, $justify, $aling){
