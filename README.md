@@ -1,1 +1,1 @@
-Este proyecto corresponde al entregable nro 3 de la carrera de desarrollo web de CoderHouse
+Este proyecto corresponde al proyecto final del curso de desarrollo web de CoderHouse
